@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class CarDaoImpl implements CarDao {
 
-    List<Car> cars = new ArrayList<>();
+    private List<Car> cars = new ArrayList<>();
 
     @Override
     public void saveCar(Car car) {
