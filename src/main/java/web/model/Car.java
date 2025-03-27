@@ -1,8 +1,6 @@
 package web.model;
 
 public class Car {
-
-    private Long id;
     private String model;
     private int series;
     private String color;
@@ -14,14 +12,6 @@ public class Car {
     }
 
     public Car() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getModel() {
@@ -51,7 +41,6 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "id=" + id +
                 ", model='" + model + '\'' +
                 ", series=" + series +
                 ", color='" + color + '\'' +
